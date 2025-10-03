@@ -2,18 +2,30 @@ project:
   type: website
 
 website:
-  title: "Claudiu Forgaci"
+  title: "<b>Claudiu Forgaci</b>"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    right:
+      # - href: index.qmd
+      #   text: Home
       - about.qmd
+      - href: publications.qmd
+        text: Publications
+      - href: presentations.qmd
+        text: Presentations
+      - href: software.qmd
+        text: Software
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "Website under construction"
+    type: primary
+    position: below-navbar
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - simplex
+      # - brand
     css: styles.css
     toc: true
 

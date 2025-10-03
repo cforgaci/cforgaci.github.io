@@ -1,7 +1,8 @@
----
-title: "Claudiu Forgaci"
----
 
-This is a Quarto website.
+I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+My research, teaching and practice center on the design and analysis of riverside urban spaces.
+
+I develop design-driven methods, open datasets, and open-source software (see the R packages [rcrisp](https://github.com/CityRiverSpaces/rcrisp), [rcoins](https://github.com/CityRiverSpaces/rcoins), and [visor](https://github.com/CityRiverSpaces/visor) which I co-authored and maintain) that facilitate comparative urban analysis.
+
+I advocate for open science in research and teaching, and I am engaged in building communities that support its practice. I am co-founder of the [Rbanism community](https://rbanism.org/) promoting reproducibility, automation and scalability in urbanism research using R<!-- , and I am a member of the [Spatial Data Science across Languages](https://spatial-data-science.github.io/) (SDSL) community with a special interest in cross-language projects -->.
