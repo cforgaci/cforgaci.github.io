@@ -1,1 +1,1 @@
-Sitemap: https://cforgaci.github.io/cforgaci-website/sitemap.xml
+Sitemap: https://cforgaci.github.io/sitemap.xml
