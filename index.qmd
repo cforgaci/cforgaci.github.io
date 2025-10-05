@@ -1,7 +1,5 @@
 
-I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales.
-
-My research, teaching and practice center on the design and analysis of riverside urban spaces.
+I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales. I am particularly interested in the design and analysis of riverside urban spaces as spaces of social-ecological integration par excellence.
 
 I develop design-driven methods, open datasets, and open-source software (see the R packages [rcrisp](https://github.com/CityRiverSpaces/rcrisp), [rcoins](https://github.com/CityRiverSpaces/rcoins), and [visor](https://github.com/CityRiverSpaces/visor) which I co-authored and maintain) that facilitate comparative urban analysis.
 
