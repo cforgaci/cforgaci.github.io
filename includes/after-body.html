@@ -1,0 +1,49 @@
+<!-- Inline script to bold my name in bibliography entries -->
+<script>
+(function () {
+  "use strict";
+
+  // Put the exact variants you want to bold, most-specific first.
+  // Example: full "Last, F." first, then just "Last" as a fallback.
+  const patterns = [
+    /\bForgaci,\s*C\./g,   // bold "Forgaci, C."
+    /\bForgaci\b/g         // bold standalone "Forgaci"
+  ];
+
+  function boldInCslEntries(root = document) {
+    root.querySelectorAll("div.csl-entry").forEach(el => {
+      let html = el.innerHTML;
+      patterns.forEach(re => {
+        html = html.replace(re, m => "<strong>" + m + "</strong>");
+      });
+      if (html !== el.innerHTML) el.innerHTML = html;
+    });
+  }
+
+  function start() {
+    try {
+      boldInCslEntries(document);
+      // If content is dynamically injected later, observe and re-run
+      const mo = new MutationObserver(muts => {
+        for (const m of muts) {
+          m.addedNodes.forEach(n => {
+            if (n.nodeType !== 1) return;
+            if (n.matches && n.matches("div.csl-entry")) boldInCslEntries(n.parentNode);
+            else if (n.querySelector) boldInCslEntries(n);
+          });
+        }
+      });
+      mo.observe(document.body, { childList: true, subtree: true });
+      console.info("bold-author: started");
+    } catch (e) {
+      console.error("bold-author error:", e);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else {
+    start();
+  }
+})();
+</script>

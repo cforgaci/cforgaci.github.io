@@ -28,6 +28,7 @@ format:
       # - brand
     css: styles.css
     toc: true
+    include-after-body: includes/after-body.html
 
 
 
