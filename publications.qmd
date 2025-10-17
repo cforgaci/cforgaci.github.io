@@ -1,4 +1,9 @@
 ---
-title: "Publications"
+bibliography: references.bib
+csl: apa.csl
+nocite:  |
+  @*
 ---
 
+::: {#my-publications .refs}
+:::
