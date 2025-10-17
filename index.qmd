@@ -1,3 +1,4 @@
+![](profile.jpg){style="width: 50%; height: 50%; border-radius: 50%; display: flex; align-items: center; justify-content: center;"}
 
 I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales. I am particularly interested in the design and analysis of riverside urban spaces as spaces of social-ecological integration par excellence.
 
