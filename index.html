@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a1c87f40015067c62c82f3c4ff3d1ad4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -131,14 +131,63 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales.</p>
-<p>My research, teaching and practice center on the design and analysis of riverside urban spaces.</p>
+<p><img src="profile.jpg" class="img-fluid" style="width: 50%; height: 50%; border-radius: 50%; display: flex; align-items: center; justify-content: center;"></p>
+<p>I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales. I am particularly interested in the design and analysis of riverside urban spaces as spaces of social-ecological integration par excellence.</p>
 <p>I develop design-driven methods, open datasets, and open-source software (see the R packages <a href="https://github.com/CityRiverSpaces/rcrisp">rcrisp</a>, <a href="https://github.com/CityRiverSpaces/rcoins">rcoins</a>, and <a href="https://github.com/CityRiverSpaces/visor">visor</a> which I co-authored and maintain) that facilitate comparative urban analysis.</p>
 <p>I advocate for open science in research and teaching, and I am engaged in building communities that support its practice. I am co-founder of the <a href="https://rbanism.org/">Rbanism community</a> promoting reproducibility, automation and scalability in urbanism research using R<!-- , and I am a member of the [Spatial Data Science across Languages](https://spatial-data-science.github.io/) (SDSL) community with a special interest in cross-language projects -->.</p>
 
 
 
 </main> <!-- /main -->
+<!-- Inline script to bold my name in bibliography entries -->
+<script>
+(function () {
+  "use strict";
+
+  // Put the exact variants you want to bold, most-specific first.
+  // Example: full "Last, F." first, then just "Last" as a fallback.
+  const patterns = [
+    /\bForgaci,\s*C\./g,   // bold "Forgaci, C."
+    /\bForgaci\b/g         // bold standalone "Forgaci"
+  ];
+
+  function boldInCslEntries(root = document) {
+    root.querySelectorAll("div.csl-entry").forEach(el => {
+      let html = el.innerHTML;
+      patterns.forEach(re => {
+        html = html.replace(re, m => "<strong>" + m + "</strong>");
+      });
+      if (html !== el.innerHTML) el.innerHTML = html;
+    });
+  }
+
+  function start() {
+    try {
+      boldInCslEntries(document);
+      // If content is dynamically injected later, observe and re-run
+      const mo = new MutationObserver(muts => {
+        for (const m of muts) {
+          m.addedNodes.forEach(n => {
+            if (n.nodeType !== 1) return;
+            if (n.matches && n.matches("div.csl-entry")) boldInCslEntries(n.parentNode);
+            else if (n.querySelector) boldInCslEntries(n);
+          });
+        }
+      });
+      mo.observe(document.body, { childList: true, subtree: true });
+      console.info("bold-author: started");
+    } catch (e) {
+      console.error("bold-author error:", e);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else {
+    start();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a1c87f40015067c62c82f3c4ff3d1ad4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -142,6 +142,55 @@ ul.task-list li input[type="checkbox"] {
 </main>  
 </div>
  <!-- /main -->
+<!-- Inline script to bold my name in bibliography entries -->
+<script>
+(function () {
+  "use strict";
+
+  // Put the exact variants you want to bold, most-specific first.
+  // Example: full "Last, F." first, then just "Last" as a fallback.
+  const patterns = [
+    /\bForgaci,\s*C\./g,   // bold "Forgaci, C."
+    /\bForgaci\b/g         // bold standalone "Forgaci"
+  ];
+
+  function boldInCslEntries(root = document) {
+    root.querySelectorAll("div.csl-entry").forEach(el => {
+      let html = el.innerHTML;
+      patterns.forEach(re => {
+        html = html.replace(re, m => "<strong>" + m + "</strong>");
+      });
+      if (html !== el.innerHTML) el.innerHTML = html;
+    });
+  }
+
+  function start() {
+    try {
+      boldInCslEntries(document);
+      // If content is dynamically injected later, observe and re-run
+      const mo = new MutationObserver(muts => {
+        for (const m of muts) {
+          m.addedNodes.forEach(n => {
+            if (n.nodeType !== 1) return;
+            if (n.matches && n.matches("div.csl-entry")) boldInCslEntries(n.parentNode);
+            else if (n.querySelector) boldInCslEntries(n);
+          });
+        }
+      });
+      mo.observe(document.body, { childList: true, subtree: true });
+      console.info("bold-author: started");
+    } catch (e) {
+      console.error("bold-author error:", e);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else {
+    start();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
