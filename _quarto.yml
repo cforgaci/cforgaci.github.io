@@ -24,7 +24,7 @@ website:
 format:
   html:
     theme:
-      - simplex
+      - cosmo
       # - brand
     css: styles.css
     toc: true
