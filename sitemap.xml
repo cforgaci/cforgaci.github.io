@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cforgaci.github.io/about.html</loc>
-    <lastmod>2025-10-05T22:39:17.310Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cforgaci.github.io/index.html</loc>
-    <lastmod>2025-10-17T20:24:22.248Z</lastmod>
+    <loc>https://cforgaci.github.io/software.html</loc>
+    <lastmod>2025-10-18T19:23:35.125Z</lastmod>
   </url>
   <url>
     <loc>https://cforgaci.github.io/publications.html</loc>
     <lastmod>2025-10-17T20:24:06.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cforgaci.github.io/index.html</loc>
+    <lastmod>2025-10-18T19:15:12.427Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cforgaci.github.io/about.html</loc>
+    <lastmod>2025-10-05T22:39:17.310Z</lastmod>
   </url>
 </urlset>

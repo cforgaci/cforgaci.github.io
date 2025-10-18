@@ -1,23 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales.\nMy research, teaching and practice center on the design and analysis of riverside urban spaces.\nI develop design-driven methods, open datasets, and open-source software (see the R packages rcrisp, rcoins, and visor which I co-authored and maintain) that facilitate comparative urban analysis.\nI advocate for open science in research and teaching, and I am engaged in building communities that support its practice. I am co-founder of the Rbanism community promoting reproducibility, automation and scalability in urbanism research using R."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "<b>Claudiu Forgaci</b>",
-    "section": "",
-    "text": "I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales. I am particularly interested in the design and analysis of riverside urban spaces as spaces of social-ecological integration par excellence.\nI develop design-driven methods, open datasets, and open-source software (see the R packages rcrisp, rcoins, and visor which I co-authored and maintain) that facilitate comparative urban analysis.\nI advocate for open science in research and teaching, and I am engaged in building communities that support its practice. I am co-founder of the Rbanism community promoting reproducibility, automation and scalability in urbanism research using R."
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "<b>Claudiu Forgaci</b>",
     "section": "",
     "text": "References\n\nForgaci, C. (2018). Integrated urban river corridors: Spatial design for social-ecological integration in bucharest and beyond [PhD thesis]. https://doi.org/10.7480/abe.2018.31\n\n\nForgaci, C. (2020). Smart and resilient cities: How can big data inform spatial design and planning for urban resilience? Contesti. Città, Territori, Progetti, 1, 62–71. https://doi.org/10.13128/contest-12035\n\n\nGorghiu, R., Ivanov, I., Maier, A., Pîslaru, D. N., Stadler, R. L., Zăgan, L., Forgaci, C., Stead, D., Ghiță, A., Rus, C., Gensheimer, M., Ghintuială, D. L., Dragomir, A.-M., Gorghiu, S.-A., Pirvu, A.-E., Matei, R., Pop, S., Gauk, M., Hermansons, Z., … Iotzov, V. (2020). State of the european territory: ESPON contribution to the debate on cohesion policy post 2020.\n\n\nNaghibi, M., Faizi, M., Forgaci, C., & Ekhlassi, A. (2021). Transforming leftover spaces into a resilient urban landscape in tehran: A MICMAC analysis of key social-ecological factors. https://doi.org/10.24404/6142217430e1a800088fb3dc\n\n\nTaraba, J., Forgaci, C., & Romein, A. (2021). Creativity-driven urban regeneration in the post-socialist context - the case of csepel works, budapest. Journal of Urban Design. https://doi.org/10.1080/13574809.2021.1951604\n\n\nWang, Y., Viseu Cardoso, R., & Forgaci, C. (2022). Urban pandemic vulnerability and COVID-19: A new framework to assess the impacts of global pandemics in the metropolitan region of amsterdam. Sustainability, 14(7), 4284. https://doi.org/10.3390/su14074284"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Claudiu Forgaci",
+    "section": "",
+    "text": "I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales. I am particularly interested in the design and analysis of riverside urban spaces as spaces of social-ecological integration par excellence.\nI develop design-driven methods, open datasets, and open-source software (see the R packages rcrisp, rcoins, and visor which I co-authored and maintain) that facilitate comparative urban analysis.\nI advocate for open science in research and teaching, and I am engaged in building communities that support its practice. I am co-founder of the Rbanism community promoting reproducibility, automation and scalability in urbanism research using R."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales.\nMy research, teaching and practice center on the design and analysis of riverside urban spaces.\nI develop design-driven methods, open datasets, and open-source software (see the R packages rcrisp, rcoins, and visor which I co-authored and maintain) that facilitate comparative urban analysis.\nI advocate for open science in research and teaching, and I am engaged in building communities that support its practice. I am co-founder of the Rbanism community promoting reproducibility, automation and scalability in urbanism research using R."
   }
 ]

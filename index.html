@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Claudiu Forgaci</title>
+<title>Claudiu Forgaci – Claudiu Forgaci</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -73,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,20 +92,8 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./presentations.qmd"> 
-<span class="menu-text">Presentations</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./software.qmd"> 
-<span class="menu-text">Software</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -122,23 +109,49 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
-
-<p><img src="profile.jpg" class="img-fluid" style="width: 50%; height: 50%; border-radius: 50%; display: flex; align-items: center; justify-content: center;"></p>
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="profile.jpg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Claudiu Forgaci</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/claudiuforgaci/" class="about-link" rel="" target="">
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://bsky.app/profile/cforgaci.bsky.social" class="about-link" rel="" target="">
+     <span class="about-link-text">🦋 Bluesky</span>
+  </a>
+  <a href="https://fosstodon.org/@cforgaci" class="about-link" rel="" target="">
+    <i class="bi bi-mastodon"></i>
+     <span class="about-link-text">Mastodon</span>
+  </a>
+  <a href="https://github.com/cforgaci" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="mailto:c.forgaci@tudelft.nl" class="about-link" rel="" target="">
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<!-- ![](profile.jpg){style="width: 50%; height: 50%; border-radius: 50%; display: flex; align-items: center; justify-content: center;"} -->
 <p>I am an assistant professor of urban design and analytics at TU Delft engaged in urban morphology research targeting the integration of social and ecological systems in urban environments across spatial and temporal scales. I am particularly interested in the design and analysis of riverside urban spaces as spaces of social-ecological integration par excellence.</p>
 <p>I develop design-driven methods, open datasets, and open-source software (see the R packages <a href="https://github.com/CityRiverSpaces/rcrisp">rcrisp</a>, <a href="https://github.com/CityRiverSpaces/rcoins">rcoins</a>, and <a href="https://github.com/CityRiverSpaces/visor">visor</a> which I co-authored and maintain) that facilitate comparative urban analysis.</p>
 <p>I advocate for open science in research and teaching, and I am engaged in building communities that support its practice. I am co-founder of the <a href="https://rbanism.org/">Rbanism community</a> promoting reproducibility, automation and scalability in urbanism research using R<!-- , and I am a member of the [Spatial Data Science across Languages](https://spatial-data-science.github.io/) (SDSL) community with a special interest in cross-language projects -->.</p>
 
 
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <!-- Inline script to bold my name in bibliography entries -->
 <script>
 (function () {
@@ -190,13 +203,6 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
