@@ -7,13 +7,13 @@ website:
     right:
       # - href: index.qmd
       #   text: Home
-      - about.qmd
+      # - about.qmd
       - href: publications.qmd
         text: Publications
-      - href: presentations.qmd
-        text: Presentations
-      - href: software.qmd
-        text: Software
+      # - href: presentations.qmd
+      #   text: Presentations
+      # - href: software.qmd
+      #   text: Software
   announcement: 
     icon: info-circle
     dismissable: true
