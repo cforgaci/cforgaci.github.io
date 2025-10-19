@@ -4,6 +4,8 @@ bibliography: references.bib
 csl: apa-modified.csl
 nocite:  |
   @*
+filters:
+  - external-links.lua
 ---
 
 ::: {#my-publications .refs}

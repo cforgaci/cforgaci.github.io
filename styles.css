@@ -3,3 +3,9 @@
 #references {
   display: none;
 }
+
+a[target="_blank"]::after {
+  content: " ↗";
+  font-size: 0.8em;
+  opacity: 0.6;
+}
