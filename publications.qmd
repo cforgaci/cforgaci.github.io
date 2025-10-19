@@ -1,4 +1,5 @@
 ---
+title: Publications
 bibliography: references.bib
 csl: apa-modified.csl
 nocite:  |
