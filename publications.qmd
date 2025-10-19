@@ -1,6 +1,6 @@
 ---
 bibliography: references.bib
-csl: apa.csl
+csl: apa-modified.csl
 nocite:  |
   @*
 ---
